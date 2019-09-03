@@ -9,9 +9,9 @@ git:
 install:
 - yarn --frozen-lockfile
 script:
-- chmod +x ./build.sh
+- ./build.sh
 after_success:
 - GREN_GITHUB_TOKEN=$GITHUB_TOKEN yarn release
 after_script:
-- chmod +x ./notify.sh
+- ./notify.sh
 cache: yarn
