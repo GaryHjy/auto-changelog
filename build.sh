@@ -4,5 +4,3 @@ git remote add github https://$GITHUB_TOKEN@github.com/GaryHjy/auto-changelog.gi
 git push github HEAD:master --follow-tags
 
 echo 'ok'
-
-yarn release
