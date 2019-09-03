@@ -9,7 +9,7 @@
     "commit": "npx git-cz",
     "commitmsg": "commitlint -E GIT_PARAMS",
     "standard-version": "standard-version",
-    "release": "./release.sh",
+    "release": "gren release --override",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md && npm run changeissueurl",
     "changeissueurl": "replace 'https://github.com/myproject/issues/' 'https://redmine.example.com/' CHANGELOG.md"
   },
@@ -29,6 +29,7 @@
     "@commitlint/config-conventional": "^8.1.0",
     "commitizen": "^4.0.3",
     "conventional-changelog-cli": "^2.0.23",
+    "github-release-notes": "^0.17.0",
     "husky": "^3.0.5",
     "standard-version": "^7.0.0"
   },
