@@ -10,9 +10,7 @@
     "commitmsg": "commitlint -E GIT_PARAMS",
     "standard-version": "standard-version",
     "stdver": "standard-version -m '[skip ci] chore(release): v%s'",
-    "release": "gren release --override",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md && npm run changeissueurl",
-    "changeissueurl": "replace 'https://github.com/myproject/issues/' 'https://redmine.example.com/' CHANGELOG.md"
+    "release": "gren release --override"
   },
   "repository": {
     "type": "git",
