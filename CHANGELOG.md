@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/GaryHjy/auto-changelog/compare/v1.2.1...v1.3.0) (2019-09-09)
+
+
+### Features
+
+* 修改脚本执行代码 ([9d81ccf](https://github.com/GaryHjy/auto-changelog/commit/9d81ccf))
+* 删除无用的命令 ([5062dbe](https://github.com/GaryHjy/auto-changelog/commit/5062dbe))
+
 ### [1.2.1](https://github.com/GaryHjy/auto-changelog/compare/v1.2.0...v1.2.1) (2019-09-03)
 
 ## 1.2.0 (2019-09-03)
