@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/GaryHjy/auto-changelog/compare/v1.3.0...v1.4.0) (2019-09-09)
+
+
+### Features
+
+* 修改文件名 ([1bd815a](https://github.com/GaryHjy/auto-changelog/commit/1bd815a))
+
 ## [1.3.0](https://github.com/GaryHjy/auto-changelog/compare/v1.2.1...v1.3.0) (2019-09-09)
 
 
